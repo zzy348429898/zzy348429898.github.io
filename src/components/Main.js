@@ -276,7 +276,7 @@ var GalleryByReactApp = React.createClass({
         imgFigures = [];
 
     imageDatas.forEach(function(value,index){
-
+      //如果imgsArrangeArr[index]为空，初始化
       if(!this.state.imgsArrangeArr[index]){
         this.state.imgsArrangeArr[index] = {
           pos: {
